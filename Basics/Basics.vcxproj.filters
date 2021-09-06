@@ -26,11 +26,19 @@
     <ClInclude Include="src\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Shaders\fragmentShader.fs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\vertexShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

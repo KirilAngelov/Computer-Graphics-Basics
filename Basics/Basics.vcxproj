@@ -155,12 +155,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Shaders\fragmentShader.fs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\vertexShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
